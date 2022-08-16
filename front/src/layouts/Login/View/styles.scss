@@ -1,0 +1,23 @@
+.login {
+  height: 100vh;
+  display: flex;
+  .login-header {
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-content {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    .logo {
+      margin-left: 100px;
+    }
+  }
+
+  .sign-in-wrapper {
+    margin-right: 50px;
+    height: 450px;
+    width: 350px;
+  }
+}

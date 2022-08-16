@@ -1,0 +1,39 @@
+.home {
+  box-sizing: border-box;
+  height: fit-content;
+  .home-logo {
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .home-navigator {
+    width: 300px;
+    font-size: 24px;
+    margin: 0 auto;
+    justify-content: space-between;
+    & > span {
+      &.active {
+        color: rgb(108, 108, 255);
+        border-bottom: 1px solid rgb(108, 108, 255);
+      }
+      &:hover {
+        color: rgb(108, 108, 255);
+        border-bottom: 1px solid rgb(108, 108, 255);
+        cursor: pointer;
+      }
+    }
+  }
+
+  .home-content-wrapper {
+    min-height: calc(100vh - 100px - 50px - 50px);
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+
+  .home-content {
+    width: 832px;
+  }
+}

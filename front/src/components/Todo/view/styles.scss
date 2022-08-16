@@ -1,0 +1,35 @@
+.todo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 12px 10px 10px 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  .todo_avatar {
+    height: 36px;
+    width: 36px;
+    border-radius: 8px;
+  }
+  .todo_content {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .todo_label {
+    font-size: 24px;
+  }
+  .todo_input {
+    height: 36px;
+    width: 36px;
+  }
+
+  &:hover {
+    background: rgba(107, 184, 255, 0.352);
+  }
+}

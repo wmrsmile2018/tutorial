@@ -1,0 +1,7 @@
+.create-todo {
+  .input {
+    & > span {
+      width: 150px;
+    }
+  }
+}
